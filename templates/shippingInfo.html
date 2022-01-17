@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block content %}
+          <div class="content-section">
+            <h3>Shipping Info</h3>
+            <ol>
+            <p>
+          <li>The system has a total of <a>{{orderData[0][0][0]}}</a> orders.</li>
+          <p>
+          <li>The maximum shipping charge paid was <a> {{orderData[1][0][0]}}</a> dollars, for <a> {{orderData[1][0][1]}}</a> order(s).  </li>
+          <p>
+          <li>The minimum shipping charge paid was <a> {{orderData[2][0][0]}}</a> dollars, for <a> {{orderData[2][0][1]}}</a> order(s).  </li>
+        </ol>
+          </div>
+    <!-- Posts are created using a for loop iterating over the posts variable
+    in flaskblog.py -->
+
+{% endblock content %}

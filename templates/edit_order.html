@@ -1,0 +1,86 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="col-md-4">
+          <div class="content-section">
+              <form method="POST" action="">
+                {{ form.hidden_tag() }}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Update Order</legend>
+                <div class="form-group">
+                    {{ form.EstimatedArrivalDate.label(class="form-control-label") }}
+
+                    {% if form.EstimatedArrivalDate.errors %}
+                        {{ form.EstimatedArrivalDate(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.EstimatedArrivalDate.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.EstimatedArrivalDate(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                    {{ form.Quantity.label(class="form-control-label") }}
+
+                    {% if form.Quantity.errors %}
+                        {{ form.Quantity(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.Quantity.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.Quantity(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                    {{ form.IsPremium.label(class="form-control-label") }}
+
+                    {% if form.IsPremium.errors %}
+                        {{ form.IsPremium(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.IsPremium.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.IsPremium(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                    {{ form.DeliveryAddress.label(class="form-control-label") }}
+
+                    {% if form.DeliveryAddress.errors %}
+                        {{ form.DeliveryAddress(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.DeliveryAddress.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.DeliveryAddress(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                    {{ form.ShippingCost.label(class="form-control-label") }}
+
+                    {% if form.ShippingCost.errors %}
+                        {{ form.ShippingCost(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.ShippingCost.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.ShippingCost(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+            </fieldset>
+            <div class="form-group">
+                {{ form.submit(class="btn btn-outline-info") }}
+            </div>
+              </form>
+          </div>
+        </div>
+{% endblock content %}

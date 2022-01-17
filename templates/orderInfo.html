@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block content %}
+          <div class="content-section">
+            <h3>Order Info</h3>
+            <ol>
+            <p>
+          <li>The system has a total of <a>{{orderData[0][0][0]}}</a> orders.</li>
+          <p>
+          <li>The order with the ID <a> {{orderData[1][0][0]}}</a> is one of the orders with maximum quantity of products, with a total of
+              <a> {{orderData[1][0][1]}}</a> products.  </li>
+              <p>
+          <li>The order with the ID <a> {{orderData[2][0][0]}}</a> is one of orders with minimum quantity of products, with a total of
+              <a> {{orderData[2][0][1]}}</a> products.  </li>
+          <!--<li>The order with highest quantity has <a>{{orderData[1][0][0]}}</a> products.</li>
+          <li>The order with highest quantity has <a>{{orderData[2][0][0]}}</a> products.</li>-->
+        </ol>
+          </div>
+    <!-- Posts are created using a for loop iterating over the posts variable
+    in flaskblog.py -->
+{% endblock content %}

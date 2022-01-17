@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content %}
+    <!-- Posts are created using a for loop iterating over the posts variable 
+    in flaskblog.py -->
+    {% for post in posts %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="#">{{ post[0] }}</a>
+              <a class="mr-2" href="#">{{ post[1] }}</a>
+            </div>
+          </div>
+        </article>
+    {% endfor %}
+{% endblock content %}

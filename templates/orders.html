@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block content %}
+    <!-- Posts are created using a for loop iterating over the posts variable 
+    in flaskblog.py -->
+    {% for post in posts %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="#">{{ post[0] }}</a>
+            </div>
+            <p class="article-content">EstimatedArrivalDate:  {{ post[1] }}</a></h2>
+            <p class="article-content">DateOrderReceived:  {{ post[2] }}</a></h2>
+            <p class="article-content">DeliveryAddress: {{ post[5] }}</a></h2>
+            <p class="article-content">ShippingCost: {{ post[6] }}</a></h2>
+            <p class="article-content">ClientID: {{ post[7] }}</p>
+          </div>
+        </article>
+    {% endfor %}
+{% endblock content %}
