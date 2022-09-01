@@ -15,7 +15,10 @@
 # Steps
 1. python get-pip.py      #Install pip: 
 2. runfile('[parent directory]/SQL-Database-MyInventory/flaskblog.py', wdir='[parent directory]/SQL-Database-MyInventory')
-3. paste `address` to web browser
+3. paste output `address` to web browser
+
+example output:
+
 Hello World
  * Serving Flask app "flaskblog" (lazy loading)
  * Environment: production
@@ -27,4 +30,6 @@ Hello World
  * Debugger is active!
  * Debugger PIN: 301-348-376
 
-DEMO video at: https://youtu.be/Y2R2tAiprVs
+# video 
+DEMO 
+at: https://youtu.be/Y2R2tAiprVs
