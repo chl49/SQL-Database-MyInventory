@@ -1,3 +1,4 @@
+# SQL-Database-MyInventory
 # Project
 - E-commerce App that uses relational database to track and retrieve data items
 - Web Application created using flask
