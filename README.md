@@ -1,9 +1,10 @@
-DEMO video at: https://youtu.be/Y2R2tAiprVs
-
-Project is a Database Management System for a web application made with flask
+# Project
+- Database Management System designed for tracking e-commerce
 
 Interface created using flask
 
-Applications used:
-Spyder 4.0
-MySQL Workbench.
+# Applications used:
+- Spyder 4.0
+- MySQL Workbench.
+
+DEMO video at: https://youtu.be/Y2R2tAiprVs
