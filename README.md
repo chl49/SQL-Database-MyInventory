@@ -17,7 +17,7 @@
 2. runfile('[parent directory]/SQL-Database-MyInventory/flaskblog.py', wdir='[parent directory]/SQL-Database-MyInventory')
 3. paste output `address` to web browser
 
-example output:
+Example output:
 
 Hello World
  * Serving Flask app "flaskblog" (lazy loading)
