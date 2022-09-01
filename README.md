@@ -12,8 +12,19 @@
 - flask (python web framework)
 
 
-# Steps (ON MAC)
+# Steps
 1. python get-pip.py      #Install pip: 
-2. runfile('/flaskblog.py', wdir='/Users/herbertli/flask/finalproject')
+2. runfile('[parent directory]/SQL-Database-MyInventory/flaskblog.py', wdir='[parent directory]/SQL-Database-MyInventory')
+3. 
+Hello World
+ * Serving Flask app "flaskblog" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with fsevents reloader
+ * Debugger is active!
+ * Debugger PIN: 301-348-376
 
 DEMO video at: https://youtu.be/Y2R2tAiprVs
