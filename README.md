@@ -13,9 +13,9 @@
 
 
 # Steps
-1. python get-pip.py      #Install pip: 
-2. runfile('[parent directory]/SQL-Database-MyInventory/flaskblog.py', wdir='[parent directory]/SQL-Database-MyInventory')
-3. paste output `address` to web browser
+1. In terminal, type `python get-pip.py` in order to install pip
+2. Type `runfile('[parent directory]/SQL-Database-MyInventory/flaskblog.py', wdir='[parent directory]/SQL-Database-MyInventory')`
+3. Paste output `address` to web browser
 
 Example output:
 
