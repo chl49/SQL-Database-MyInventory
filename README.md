@@ -1,7 +1,6 @@
 # Project
-- Database Management System designed for tracking e-commerce
-
-Interface created using flask
+- E-commerce App that uses relational database to track and retrieve data items
+- Web Application created using flask
 
 # Applications used:
 - Spyder 4.0
