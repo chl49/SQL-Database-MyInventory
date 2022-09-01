@@ -5,7 +5,7 @@
 # Applications used:
 - Anaconda Navigator
 - Spyder 4.0
-- MySQL Workbench.
+- MySQL Workbench
 
 # Requirements
 - pip (python package installer)
