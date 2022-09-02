@@ -1,24 +1,24 @@
 # SQL-Database-MyInventory
-# Project
+## Project
 - E-commerce App that uses relational database to track and retrieve data items
 - Web Application created using flask
 
-# Applications used:
+## Applications used:
 - Anaconda Navigator
 - Spyder 4.0
 - MySQL Workbench
 
-# Requirements
+## Requirements
 - pip (python package installer)
 - flask (python web framework)
 
 
-# Steps
+## Steps
 1. In terminal, type `python get-pip.py` in order to install pip
 2. Type `runfile('[parent directory]/SQL-Database-MyInventory/flaskblog.py', wdir='[parent directory]/SQL-Database-MyInventory')`
 3. Paste output `address` to web browser
 
-Example output:
+### Example output:
 
 Hello World
  * Serving Flask app "flaskblog" (lazy loading)
@@ -31,6 +31,5 @@ Hello World
  * Debugger is active!
  * Debugger PIN: 301-348-376
 
-# Video 
-DEMO 
-at: https://youtu.be/Y2R2tAiprVs
+## Video 
+DEMO at: https://youtu.be/Y2R2tAiprVs
